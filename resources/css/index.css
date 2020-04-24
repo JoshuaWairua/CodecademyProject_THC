@@ -1,0 +1,70 @@
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    background-color: bisque;
+    color: saddlebrown;
+    margin-top: 75px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#humancond{
+    height: 150px;
+    width: 200px;
+    filter: drop-shadow(1px 1px 5px black);
+}
+
+button{
+    background-color: red;
+    color: white;
+}
+
+.human_section{
+    padding: 20px 50px;
+}
+
+#human{
+    color: brown;
+    font-size: 50px;
+}
+
+#hueman ul{
+    list-style-type: none;
+}
+
+.avatar{
+    background-image: url(../images/tree.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50% ;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+a.blue{
+    color: blue;
+}
